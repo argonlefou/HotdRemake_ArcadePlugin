@@ -31,5 +31,8 @@ Use the following keyboard keys to play the game :
 <br>
 Then either use the mouse/lightgun only or DemulShooter, according to your controls settings in the config tool.  
 <br>
+## Uninstall
+Simply remove dll file located in the `BepInex\plugin\` folder of your game to play the original game as before.  
+<br>  
 ## Known issues  
 - The game may crash the first time it is run after a change in the resolution/screemode setting. Usually, after this first and only crash, the game is running fine with updated graphics.
