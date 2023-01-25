@@ -1,11 +1,17 @@
 # HotdRemake_ArcadePlugin
+<p align="center">
+  <img align="left" width="400" height="313" src="https://user-images.githubusercontent.com/22789681/214518475-abdb73e4-1777-47fa-9b73-dc1bb0a9058c.png">
+  <img  width="400" height="313" src="https://user-images.githubusercontent.com/22789681/214518483-9a0864ca-9ff9-4733-880d-0a231f972661.png">
+</p>  
 Arcade Plugin for "House Of The Dead : Remake" game on Windows  
 This UNITY plugin will modify the game in order to make it as close as possible from the original game arcade version.
 <br>
 <br>
+
 ## Compatibility
 So far the plugin has been tested with both initial (April 2022) and updated v1.1.3 (Jully 2022) versions of STEAM and GOG releases.  
-<br>
+<br>  
+
 ## Installation
 Unzip the plugin content to the base directory of the game, where the file `The House of the Dead Remake.exe` is located.  
 Please remove any other installed plugin (ex: old Mystery Wizard plugin for multiplayer with first versions of the game).  
