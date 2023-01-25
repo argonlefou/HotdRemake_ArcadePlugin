@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{704C4B0D-9911-449D-9976-E5804027625F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HotdRemake_ArcadePlugin_202207</RootNamespace>
+    <AssemblyName>HotdRemake_ArcadePlugin_202207</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>UnityLibs\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>UnityLibs\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>UnityLibs\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>UnityLibs\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core">
+      <HintPath>UnityLibs\Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>UnityLibs\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>UnityLibs\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>UnityLibs\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>UnityLibs\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard" />
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>UnityLibs\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>UnityLibs\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>UnityLibs\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>UnityLibs\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>UnityLibs\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>UnityLibs\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>UnityLibs\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>UnityLibs\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>UnityLibs\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>UnityLibs\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>UnityLibs\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfManager.cs" />
+    <Compile Include="Hotdra_MemoryMappedFile_Controller.cs" />
+    <Compile Include="LanguageStrings.cs" />
+    <Compile Include="Hotd_ArcadePlugin.cs" />
+    <Compile Include="mHD_AchievementHandler.cs" />
+    <Compile Include="mHD_AgentNameMenu.cs" />
+    <Compile Include="mHD_Cheats.cs" />
+    <Compile Include="mHD_Crosshair.cs" />
+    <Compile Include="mHD_CutsceneInputManager.cs" />
+    <Compile Include="mHD_CutsceneUI.cs" />
+    <Compile Include="mHD_DeathScreenManager.cs" />
+    <Compile Include="mHD_EndingManager.cs" />
+    <Compile Include="mHD_EnemyHealth.cs" />
+    <Compile Include="mHD_GameManager.cs" />
+    <Compile Include="mHD_GameOverMapManager.cs" />
+    <Compile Include="mHD_GameOverMenu.cs" />
+    <Compile Include="mHD_Health.cs" />
+    <Compile Include="mHD_InputManager.cs" />
+    <Compile Include="mHD_LeaderboardItem.cs" />
+    <Compile Include="mHD_LeaderboardMenu.cs" />
+    <Compile Include="mHD_LevelCompleteMenu.cs" />
+    <Compile Include="mHD_LevelCompleteTrigger.cs" />
+    <Compile Include="mHD_MainMenuMovieController.cs" />
+    <Compile Include="mHD_NewGameMenu.cs" />
+    <Compile Include="mHD_Player.cs" />
+    <Compile Include="mHD_PlayerCombatManager.cs" />
+    <Compile Include="mHD_PlayerDeathScreen.cs" />
+    <Compile Include="mHD_PlayerHealth.cs" />
+    <Compile Include="mHD_PlayerUI.cs" />
+    <Compile Include="mHD_PlaythroughStateData.cs" />
+    <Compile Include="mHD_PressAnyKeyDisplay.cs" />
+    <Compile Include="mHD_RankMenu.cs" />
+    <Compile Include="mHD_ReadyCheckPanel.cs" />
+    <Compile Include="mHD_SkipController.cs" />
+    <Compile Include="mHD_SkipView.cs" />
+    <Compile Include="mHD_WeaponHolder.cs" />
+    <Compile Include="mMP_ApplicationManager.cs" />
+    <Compile Include="mMP_Button.cs" />
+    <Compile Include="mMP_ControllerdisconnectedPopup.cs" />
+    <Compile Include="mMP_GameplayTipsManager.cs" />
+    <Compile Include="mMP_Menu.cs" />
+    <Compile Include="mMP_MusicManager.cs" />
+    <Compile Include="mMP_SaveData.cs" />
+    <Compile Include="mMP_SaveLoad.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hod_remake logo_1.bin" />
+    <None Include="Resources\ranking_backgound.bin" />
+    <None Include="Resources\typewriter_text_2.bin" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
