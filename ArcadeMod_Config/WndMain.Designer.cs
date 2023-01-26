@@ -854,7 +854,7 @@
             this.MinimizeBox = false;
             this.Name = "WndMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "House Of The Dead Remake - Arcade Configurator v1.0";
+            this.Text = "House Of The Dead Remake - Arcade Configurator v2.0";
             ((System.ComponentModel.ISupportInitialize)(this.TrackBar_VCE)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBar_SFX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBar_BGM)).EndInit();
