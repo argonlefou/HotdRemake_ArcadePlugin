@@ -142,6 +142,7 @@
     <Compile Include="mMP_ApplicationManager.cs" />
     <Compile Include="mMP_Button.cs" />
     <Compile Include="mMP_ControllerdisconnectedPopup.cs" />
+    <Compile Include="mMP_CursorSetterModule.cs" />
     <Compile Include="mMP_GameplayTipsManager.cs" />
     <Compile Include="mMP_Menu.cs" />
     <Compile Include="mMP_MusicManager.cs" />

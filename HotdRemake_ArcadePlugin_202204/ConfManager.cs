@@ -26,7 +26,7 @@ namespace HotdRemake_ArcadePlugin_202204
 
         //Gameplay Settings (Works for both players)
         private int _HideCrosshairs = 0;
-        private int _GameDifficulty = 3;
+        private int _GameDifficulty = 3;    //0=Easy, 1=Normal, 2=HArd, 3=VeryHard
 
         //Sound Settings (0-100%)
         private int _MasterVolume = 100;

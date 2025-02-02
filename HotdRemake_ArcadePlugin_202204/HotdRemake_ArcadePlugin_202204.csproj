@@ -105,6 +105,7 @@
     <Compile Include="ConfManager.cs" />
     <Compile Include="Hotdra_MemoryMappedFile_Controller.cs" />
     <Compile Include="LanguageStrings.cs" />
+    <Compile Include="mMP_CursorSetterModule.cs" />
     <Compile Include="mHD_AchievementHandler.cs" />
     <Compile Include="mHD_AgentNameMenu.cs" />
     <Compile Include="mHD_BloodSetup.cs" />

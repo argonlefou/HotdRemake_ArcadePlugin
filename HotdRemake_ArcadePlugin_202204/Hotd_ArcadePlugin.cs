@@ -15,7 +15,7 @@ namespace HotdRemake_ArcadePlugin_202204
     {
         public const String pluginGuid = "argonlefou.hotdr.arcade.v2022-04";
         public const String pluginName = "House Of The Dead Remake v2022-04 - Arcade Plugin";
-        public const String pluginVersion = "1.0.0.0";
+        public const String pluginVersion = "3.0.0.0";
 
         public static HotdRemake_ArcadePlugin Instance = null;
         public static ManualLogSource MyLogger;
@@ -139,16 +139,6 @@ namespace HotdRemake_ArcadePlugin_202204
 
         public void Update()
         {
-            //Unlocking mouse cursor
-            if (Cursor.lockState != CursorLockMode.None)
-                Cursor.lockState = CursorLockMode.None;
-
-            // Cursor visibility
-            if (Configurator.HideCursor)
-                Cursor.visible = false;
-            else
-                Cursor.visible = true;
-
             //Changing the In-Game Player Text fieds
             if (P1_GUIText != null)
             {
